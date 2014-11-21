@@ -1,0 +1,1545 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#Header {
+    float: none;
+    height: 80px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.901961);
+    -webkit-box-shadow: rgba(1, 1, 1, 0.298039) 0px 2px 3px 0px;
+    box-shadow: rgba(1, 1, 1, 0.298039) 0px 2px 3px 0px;
+}
+
+#box {
+    float: left;
+    height: 80px;
+    margin: 0px;
+    clear: none;
+    width: 80px;
+    background-color: rgb(1, 1, 1);
+}
+
+#image {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: 34px;
+    margin: 23px auto auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-height: none;
+}
+
+#box1 {
+    float: left;
+    height: 80px;
+    clear: none;
+    width: auto;
+    margin: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 10px;
+}
+
+#image1 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#input {
+    float: right;
+    height: 100%;
+    font-size: 20px;
+    margin: 0px;
+    clear: none;
+    width: 200px;
+    border-width: 1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Gotham Bold';
+    text-transform: uppercase;
+    color: rgb(139, 194, 72);
+    border-color: rgb(139, 194, 72);
+    background-color: rgb(139, 194, 72);
+    min-height: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#Testimonial {
+    float: none;
+    height: auto;
+    margin: 3000px 0px 0px;
+    clear: none;
+    width: 100%;
+}
+
+#text16 {
+    float: none;
+    font-size: 33px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 40px auto 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(1, 1, 1);
+    font-family: Gotham;
+    text-transform: none;
+}
+
+#box18 {
+    float: left;
+    height: 279px;
+    margin: 0px;
+    clear: none;
+    width: 70.000912%;
+}
+
+#box17 {
+    float: left;
+    height: 279px;
+    margin: 0px;
+    clear: none;
+    width: 30.000391%;
+    border-right-width: 1px;
+    border-right-color: rgba(1, 1, 1, 0.298039);
+    border-right-style: solid;
+    background-image:url("img/Jhu_new_logo_large.gif");
+    background-attachment: scroll;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text18 {
+    float: left;
+    font-size: 12px;
+    width: 83.32%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 180%;
+    margin: 6.72px 0px 0px 86.61px;
+    clear: both;
+    min-height: 0px;
+    font-family: Gotham;
+    color: rgba(1, 1, 1, 0.580392);
+}
+
+#box21 {
+    float: none;
+    height: auto;
+    clear: none;
+    width: 100%;
+    background-color: rgb(199, 198, 198);
+    margin: 34px 0px 0px 0%;
+    padding: 0px 0px 20px;
+}
+
+#box16 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 30px;
+    clear: none;
+    width: 1200px;
+}
+
+#text19 {
+    float: none;
+    font-size: 22px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 20px auto 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgba(1, 1, 1, 0.580392);
+    font-family: Gotham;
+    text-transform: uppercase;
+}
+
+#text17 {
+    float: none;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 10px auto 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgba(1, 1, 1, 0.580392);
+    font-family: Gotham;
+    text-transform: none;
+}
+
+#box22 {
+    float: none;
+    height: 113px;
+    margin-left: auto;
+    margin-top: 11px;
+    clear: none;
+    width: 1200px;
+    margin-right: auto;
+}
+
+#box23 {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    background-image:url("img/logo-bloomberg.svg");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box24 {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    background-image:url("img/logo-usatoday.svg");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box26 {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    background-image:url("img/logo-mashable.svg");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box25 {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    background-image:url("img/logo-fortune.svg");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#image3 {
+    float: left;
+    width: 5.349702%;
+    max-width: none;
+    height: 32.734375px;
+    margin-left: 2.639509%;
+    margin-top: 24px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box20 {
+    float: right;
+    height: 140px;
+    margin-left: 0px;
+    margin-top: -216.546875px;
+    clear: none;
+    width: 5.736544%;
+    margin-right: 92.492918%;
+}
+
+#image5 {
+    float: none;
+    width: 37.191358%;
+    max-width: none;
+    height: 54px;
+    margin-left: auto;
+    margin-top: 50px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box19 {
+    float: right;
+    height: 140px;
+    margin-left: 0px;
+    margin-top: -217.09375px;
+    clear: none;
+    width: 5.736544%;
+    margin-right: 1.770538%;
+}
+
+#image4 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: 54px;
+    margin-left: 45.659722%;
+    margin-top: 50.546875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#textspan2 {
+    line-height: 150%;
+    font-size: 24px;
+}
+
+#box7 {
+    float: none;
+    height: 400px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/NRK_nyheter_web.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 532px 0px 0px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box10 {
+    float: none;
+    height: 400px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/easybring_web.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box13 {
+    float: none;
+    height: 500px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/Acano_web.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box27 {
+    float: none;
+    height: 500px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/1-KaGQ8A6cCqH40z0vc2TeDg.jpeg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box6 {
+    float: none;
+    height: 300px;
+    margin: 168px auto 0px;
+    clear: none;
+    width: 1200px;
+}
+
+#text6 {
+    float: left;
+    font-size: 22px;
+    width: 42.625%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 48px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    font-family: Gotham;
+    color: rgb(199, 198, 198);
+}
+
+#box8 {
+    float: none;
+    height: 345px;
+    margin: 20px auto 0px;
+    clear: none;
+    width: 1200px;
+}
+
+#text7 {
+    float: left;
+    font-size: 30px;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#text8 {
+    float: left;
+    font-size: 14px;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 110px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgba(255, 255, 255, 0.631373);
+    font-family: Gotham;
+}
+
+#text9 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#box9 {
+    float: left;
+    height: 100px;
+    margin: 0px;
+    clear: none;
+    width: 200px;
+    min-height: 50px;
+    background-image:url("img/whiteNBC_logo.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 0% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box11 {
+    margin: 20px 0px 0px 0%;
+    width: 1200px;
+    float: left;
+    height: 345px;
+    clear: none;
+}
+
+#box12 {
+    float: left;
+    height: 100px;
+    margin: 0px;
+    clear: none;
+    width: 200px;
+    min-height: 50px;
+    background-image:url("img/Dropbox_logo_(September_2013)white.svg");
+    background-attachment: scroll;
+    -webkit-background-size: 120%;
+    background-size: 120%;
+    background-position: -20px 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text10 {
+    float: left;
+    font-size: 30px;
+    width: 700px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#text11 {
+    float: left;
+    font-size: 14px;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 110px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgba(255, 255, 255, 0.631373);
+    font-family: Gotham;
+}
+
+#text12 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#box14 {
+    margin: 20px auto 0px;
+    width: 1200px;
+    float: none;
+    height: 345px;
+    clear: none;
+}
+
+#box15 {
+    float: left;
+    height: 100px;
+    margin: 0px;
+    clear: none;
+    width: 200px;
+    min-height: 50px;
+    background-image:url("img/Kickstarter_logowhite.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 0% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text13 {
+    float: left;
+    font-size: 30px;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#text14 {
+    float: left;
+    font-size: 14px;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 110px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgba(255, 255, 255, 0.631373);
+    font-family: Gotham;
+}
+
+#text15 {
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+}
+
+#box4 {
+    float: left;
+    height: 300px;
+    margin: 19px 0px 0px 14.19px;
+    clear: both;
+    width: 300px;
+    padding: 0px;
+    background-image:url("img/13%20%D0%B2%D0%B5%D1%80.%202013%2018-49-14.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box2 {
+    float: none;
+    height: 500px;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/blurred-background.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-width: 0px;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box3 {
+    float: none;
+    height: 666px;
+    margin-left: auto;
+    margin-top: 484px;
+    clear: none;
+    width: 1200px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 0px solid rgb(255, 255, 255);
+}
+
+#text {
+    float: none;
+    font-size: 33px;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 159px auto 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Gotham Bold';
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#box5 {
+    float: left;
+    height: 178px;
+    margin: 296px 0% 0px 13.54%;
+    clear: none;
+    width: 36.83%;
+}
+
+#text2 {
+    float: left;
+    font-size: 22px;
+    width: 77.415694%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 9px 0px 0px 0.046875px;
+    clear: both;
+    min-height: 0px;
+    font-family: Gotham;
+}
+
+#text3 {
+    float: left;
+    font-size: 18px;
+    width: 92.335473%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 39.265625px 0px 0px 7.453125px;
+    clear: none;
+    min-height: 0px;
+    font-family: Gotham;
+    color: rgb(199, 198, 198);
+}
+
+#image2 {
+    float: left;
+    width: 5.381635%;
+    max-width: none;
+    height: 32.734375px;
+    margin-left: 0%;
+    margin-top: 24px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+#text1 {
+    float: left;
+    font-size: 33px;
+    width: 77.500001%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 6px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Gotham Bold';
+    color: rgb(1, 1, 1);
+}
+
+#textspan {
+    color: rgb(255, 255, 255);
+    line-height: 1em;
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 42.625%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: Gotham;
+}
+
+#textspan1 {
+    font-family: Gotham;
+    font-size: 44px;
+    line-height: 1em;
+}
+
+#text4 {
+    float: left;
+    font-size: 18px;
+    width: 77.415693%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 30px 0px 0px 0.09375px;
+    clear: both;
+    min-height: 0px;
+    font-family: 'Gotham Bold';
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) {
+    #Header {
+        float: none;
+        height: 80px;
+        margin: 0px;
+        clear: none;
+        width: 100%;
+        position: fixed;
+    }
+
+    #box {
+        float: left;
+        height: 80px;
+        margin: 0px;
+        clear: none;
+        width: 80px;
+        background-color: rgb(1, 1, 1);
+    }
+
+    #image {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        height: 34px;
+        margin: 23px auto auto;
+        clear: none;
+        color: rgb(0, 0, 0);
+        max-height: none;
+    }
+
+    #box1 {
+        float: left;
+        height: 80px;
+        clear: none;
+        margin: 0px 0px 0px 0%;
+    }
+
+    #image1 {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-top: 24px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: auto;
+    }
+
+    #input {
+        float: right;
+        font-size: 20px;
+        clear: none;
+        border-width: 1px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: 'Gotham Bold';
+        text-transform: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(139, 194, 72);
+    }
+
+    #Testimonial {
+        float: none;
+        clear: none;
+        width: 100%;
+        margin-top: 3248px;
+        margin-left: 0px;
+    }
+
+    #text16 {
+        float: none;
+        font-size: 33px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1em;
+        clear: none;
+        min-height: 0px;
+        color: rgb(1, 1, 1);
+        text-transform: none;
+    }
+
+    #box18 {
+        float: left;
+        height: 279px;
+        margin: 0px;
+        clear: none;
+        width: 70.000912%;
+    }
+
+    #box17 {
+        float: left;
+        height: 279px;
+        margin: 0px;
+        clear: none;
+        width: 30.000391%;
+        border-right-width: 1px;
+        border-right-color: rgba(1, 1, 1, 0.298039);
+        border-right-style: solid;
+        background-image:url("img/Jhu_new_logo_large.gif");
+        background-attachment: scroll;
+        -webkit-background-size: 80%;
+        background-size: 80%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text18 {
+        float: left;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        clear: both;
+        min-height: 0px;
+    }
+
+    #textspan2 {
+        float: none;
+    }
+
+    #box21 {
+        float: none;
+        clear: none;
+        width: 100%;
+        background-color: rgb(199, 198, 198);
+    }
+
+    #box16 {
+        float: none;
+        height: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        clear: none;
+        margin-right: auto;
+    }
+
+    #text19 {
+        float: none;
+        font-size: 22px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1em;
+        margin: 20px auto 0px;
+        clear: none;
+        min-height: 0px;
+        text-transform: uppercase;
+    }
+
+    #text17 {
+        float: none;
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1em;
+        margin: 10px auto 0px;
+        clear: none;
+        min-height: 0px;
+        text-transform: none;
+    }
+
+    #box22 {
+        float: none;
+        height: 113px;
+        margin-left: auto;
+        margin-top: 11px;
+        clear: none;
+        width: 1200px;
+        margin-right: auto;
+    }
+
+    #box23 {
+        float: left;
+        height: 100%;
+        margin: 0px;
+        clear: none;
+        width: 25%;
+        background-image:url("img/logo-bloomberg.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box24 {
+        float: left;
+        height: 100%;
+        margin: 0px;
+        clear: none;
+        width: 25%;
+        background-image:url("img/logo-usatoday.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box26 {
+        float: left;
+        height: 100%;
+        margin: 0px;
+        clear: none;
+        width: 25%;
+        background-image:url("img/logo-mashable.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box25 {
+        float: left;
+        height: 100%;
+        margin: 0px;
+        clear: none;
+        width: 25%;
+        background-image:url("img/logo-fortune.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #image3 {
+        float: left;
+        width: 5.349702%;
+        max-width: none;
+        height: 32.734375px;
+        margin-left: 2.639509%;
+        margin-top: 24px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 0%;
+    }
+
+    #box6 {
+        height: 300px;
+        clear: none;
+        margin-top: 49px;
+    }
+
+    #box7 {
+        margin-top: 64px;
+        margin-left: 0px;
+        clear: none;
+    }
+
+    #box10 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+    }
+
+    #box13 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+    }
+
+    #box27 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+    }
+
+    #box4 {
+        float: left;
+        height: 300px;
+        clear: none;
+        width: 300px;
+        padding: 0px;
+    }
+
+    #box2 {
+        clear: none;
+    }
+
+    #image2 {
+        float: left;
+        width: 5.349702%;
+        max-width: none;
+        height: 32.734375px;
+        margin-left: 2.639509%;
+        margin-top: 24px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #Testimonial {
+        clear: none;
+        margin: 0px;
+    }
+
+    #box23 {
+        background-image:url("img/logo-bloomberg.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 0% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box26 {
+        background-image:url("img/logo-mashable.svg");
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        background-size: auto;
+        background-position: 100% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text19 {
+        margin: 36px auto 0px;
+        clear: none;
+    }
+
+    #box22 {
+        margin: 24px auto 0px;
+        clear: none;
+    }
+
+    #box20 {
+        float: right;
+        height: 140px;
+        margin-left: 0px;
+        margin-top: -216.546875px;
+        clear: none;
+        width: 5.736544%;
+        margin-right: 92.492918%;
+    }
+
+    #image5 {
+        float: none;
+        width: 37.191358%;
+        max-width: none;
+        height: 54px;
+        margin-left: auto;
+        margin-top: 50px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: auto;
+    }
+
+    #box19 {
+        float: right;
+        height: 140px;
+        margin-left: 0px;
+        margin-top: -217.09375px;
+        clear: none;
+        width: 5.736544%;
+        margin-right: 1.770538%;
+    }
+
+    #image4 {
+        float: left;
+        width: auto;
+        max-width: 100%;
+        height: 54px;
+        margin-left: 45.659722%;
+        margin-top: 50.546875px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #text18 {
+        margin-top: 93.890625px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #box7 {
+        float: none;
+        clear: none;
+        width: 100%;
+        background-image:url("img/NRK_nyheter_web.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin: 0px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box10 {
+        float: none;
+        clear: none;
+        width: 100%;
+        background-image:url("img/easybring_web.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box13 {
+        float: none;
+        height: 400px;
+        margin: 0px;
+        clear: none;
+        width: 100%;
+        background-image:url("img/Acano_web.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box27 {
+        float: none;
+        height: 500px;
+        margin: 60px 0px 0px 24px;
+        clear: none;
+        width: 50%;
+        background-image:url("img/1-KaGQ8A6cCqH40z0vc2TeDg.jpeg");
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box6 {
+        clear: none;
+        margin-top: 411px;
+    }
+
+    #text6 {
+        float: left;
+        font-size: 22px;
+        width: 42.625%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 56px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(199, 198, 198);
+    }
+
+    #box8 {
+        float: none;
+        height: 345px;
+        margin: 20px auto 0px;
+        clear: none;
+        width: 1200px;
+    }
+
+    #text7 {
+        float: left;
+        font-size: 30px;
+        width: 600px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+    }
+
+    #text8 {
+        float: left;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 120%;
+        margin: 110px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgba(255, 255, 255, 0.631373);
+    }
+
+    #text9 {
+        float: left;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+    }
+
+    #box9 {
+        float: left;
+        height: 100px;
+        margin: 0px;
+        clear: none;
+        width: 200px;
+        min-height: 50px;
+        background-image:url("img/whiteNBC_logo.svg");
+        background-attachment: scroll;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: 0% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #box11 {
+        margin: 20px auto 0px;
+        width: 1200px;
+        height: 345px;
+        clear: none;
+        float: none;
+    }
+
+    #box12 {
+        float: left;
+        height: 100px;
+        margin: 0px;
+        clear: none;
+        width: 200px;
+        min-height: 50px;
+        background-image:url("img/Dropbox_logo_(September_2013)white.svg");
+        background-attachment: scroll;
+        -webkit-background-size: 120%;
+        background-size: 120%;
+        background-position: -20px 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text10 {
+        float: left;
+        font-size: 30px;
+        width: 700px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Gotham;
+    }
+
+    #text11 {
+        float: left;
+        font-size: 14px;
+        width: 600px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 120%;
+        margin: 110px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgba(255, 255, 255, 0.631373);
+        font-family: Gotham;
+    }
+
+    #text12 {
+        float: left;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Gotham;
+    }
+
+    #box14 {
+        height: 345px;
+        clear: none;
+    }
+
+    #box15 {
+        float: left;
+        height: 100px;
+        margin: 0px;
+        clear: none;
+        width: 200px;
+        min-height: 50px;
+        background-image:url("img/Kickstarter_logowhite.svg");
+        background-attachment: scroll;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: 0% 50%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text13 {
+        float: left;
+        font-size: 30px;
+        width: 600px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    #text14 {
+        float: left;
+        font-size: 14px;
+        width: 600px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 120%;
+        margin: 110px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgba(255, 255, 255, 0.631373);
+    }
+
+    #text15 {
+        float: left;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    #box4 {
+        clear: none;
+    }
+
+    #box2 {
+        clear: none;
+    }
+
+    #box3 {
+        float: none;
+        height: 666px;
+        margin-left: auto;
+        margin-top: 124px;
+        clear: none;
+        width: 1200px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        margin-right: auto;
+    }
+
+    #text {
+        height: auto;
+        line-height: 1em;
+        clear: none;
+        min-height: 0px;
+        margin-top: 140px;
+    }
+
+    #box5 {
+        float: left;
+        height: 300px;
+        clear: none;
+        margin-top: 19px;
+        margin-right: 0%;
+        margin-left: 1.885417%;
+        width: 69.584635%;
+    }
+
+    #text2 {
+        float: left;
+        width: 77.415694%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 9px 0px 0px 0.046875px;
+        clear: both;
+        min-height: 0px;
+        font-family: Gotham;
+    }
+
+    #text3 {
+        float: left;
+        width: 92.335473%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 120%;
+        margin: 39.265625px 0px 0px 7.453125px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(199, 198, 198);
+    }
+
+    #image2 {
+        width: 5.381635%;
+        display: block;
+        margin-top: 24px;
+        margin-right: 0%;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #text1 {
+        float: left;
+        font-size: 33px;
+        width: 77.500001%;
+        height: auto;
+        text-align: left;
+        line-height: 1em;
+        margin: 6px 0px 0px;
+        clear: none;
+        min-height: 0px;
+    }
+
+    #textspan {
+        float: none;
+    }
+
+    #text5 {
+        float: left;
+        font-size: 1em;
+        width: 42.625%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0px;
+        clear: none;
+        min-height: 0px;
+    }
+
+    #textspan1 {
+        float: none;
+    }
+
+    #text4 {
+        float: left;
+        width: 77.415693%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 30px 0px 0px 0.09375px;
+        clear: both;
+        min-height: 0px;
+        font-family: 'Gotham Bold';
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+}
+
