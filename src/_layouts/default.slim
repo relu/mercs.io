@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width initial-scale=1")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    title
+      | {% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}
+
+    meta(name="description" content="{{ site.description }}")
+
+    | {% css_asset_tag global_css %}
+      - /_assets/sass/styles.scss
+    | {% endcss_asset_tag %}
+
+  body
+    header
+
+    main.page-content
+      .wrapper
+        | {{ content }}
+
+    footer
