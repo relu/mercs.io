@@ -126,7 +126,7 @@ html { font-size: 16px; }
   height: 300px;
   margin: 0 auto;
 
-  .image img { margin-left: -$grid-gutter-width / 2; }
+  .image { padding: 0; }
 
   .information {
     height: 100%;
@@ -144,6 +144,56 @@ html { font-size: 16px; }
     font-weight: 200;
     margin: 9px 0 0;
     color: $gray-base;
+  }
+
+  .education {
+    background: rgb(56, 164, 220);
+    padding: 0;
+    color: white;
+    height: 100%;
+
+    strong {
+      @include font-size(18px);
+      margin: 16px 0 0 20px;
+      display: block;
+      line-height: 1;
+    }
+
+    .logo { margin-top: 30px; }
+
+    .university-name {
+      display: block;
+      @include font-size(22px);
+      font-weight: 200;
+      margin: 18px 0 0;
+    }
+  }
+
+  .quote {
+    background: image-url('img-placeholder.jpg') no-repeat 0% 50%;
+    background-size: cover;
+    height: 100%;
+
+    .quote-icon {
+      display: block;
+      float: left;
+      background: inline-image('quote-icon.svg') no-repeat;
+      width: 42px;
+      height: 39px;
+      margin: 17px 0 0 5px;
+      background-size: contain;
+    }
+
+    blockquote {
+      @include font-size(18px);
+      font-weight: 200;
+      max-width: 378px;
+      color: white;
+      margin: 55px 0px 0px 8px;
+      padding: 0;
+      float: left;
+      border: 0;
+    }
   }
 }
 
