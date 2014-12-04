@@ -31,4 +31,18 @@ html
     main.page-content
       | {{ content }}
 
-    footer.site-footer.row
+    footer.site-footer
+      .container-fluid
+        .row.text-center
+          img.footer-logo(src="/assets/images/mercs-logo.svg" alt="Mercs" width="150" height="106")
+        .colophon.row
+          span.col-xs-3
+            | &copy; Mercs.io {{ site.time | date: '%Y' }}
+          span.col-xs-3
+            | A Product of <a href="https://www.odesk.com">oDesk.com</a>
+          span.col-xs-3
+            | In a hurry? <em>Call us at 1-800-123-4567</em>
+          span.col-xs-3
+            | EMail Us
+
+

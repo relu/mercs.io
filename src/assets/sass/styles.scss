@@ -210,6 +210,34 @@ html { font-size: 16px; }
   }
 }
 
+.site-footer { padding: 125px 0 20px; }
+
+.colophon {
+  margin-top: 125px;
+
+  span {
+    position: relative;
+    @include font-size(14px);
+    font-weight: 200;
+    color: $gray-base;
+    text-align: center;
+
+    & + span:before {
+      content: "+";
+      display: inline-block;
+      position: absolute;
+      left: -4px;
+    }
+  }
+
+  em {
+    font-style: normal;
+    color: rgb(240, 84, 85);
+  }
+
+  a, a:hover, a:active, a:visited { color: $gray-base; }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
   body { margin-top: 80px; }
