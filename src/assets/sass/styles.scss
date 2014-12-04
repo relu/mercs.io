@@ -124,7 +124,6 @@ html { font-size: 16px; }
 .profile {
   background: white;
   height: 300px;
-  margin: 0 auto;
 
   .image { padding: 0; }
 
@@ -194,6 +193,20 @@ html { font-size: 16px; }
       float: left;
       border: 0;
     }
+  }
+}
+
+.past-clients {
+  background: rgb(246, 249, 250);
+  height: 75px;
+  line-height: 75px;
+  color: $gray-base;
+
+  strong { @include font-size(18px); }
+  p {
+    @include font-size(18px);
+    margin: 0;
+    font-weight: 200;
   }
 }
 
