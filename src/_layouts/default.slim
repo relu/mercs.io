@@ -11,14 +11,24 @@ html
     meta(name="description" content="{{ site.description }}")
 
     | {% css_asset_tag global_css %}
-      - /_assets/sass/styles.scss
+      - /assets/sass/styles.scss
     | {% endcss_asset_tag %}
 
   body
-    header
+    header.navbar-fixed-top.site-header.row(role="banner")
+      .col-lg-6
+        .logo
+          img(src="/assets/images/merc-logo-on-dark.svg" alt="")
+        .title
+          img(src="/assets/images/mercs-black-text.svg" alt="Mercs")
+      .col-lg-6.text-right
+        p.text-cta.text-right
+          | Want an Excellent Python
+          br/
+          | Developer for Your Project?
+        a.btn.btn-default(href="#") HIRE Vitaliy
 
     main.page-content
-      .wrapper
-        | {{ content }}
+      | {{ content }}
 
-    footer
+    footer.site-footer.row
