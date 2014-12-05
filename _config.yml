@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mercs.io" # the base hostname & protocol for your site
 
 source: ./src
-destination: ./build
+destination: ./
 
 asset_pipeline:
   bundle: true
