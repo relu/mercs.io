@@ -308,7 +308,7 @@ html { font-size: 16px; }
 }
 
 .testimonials {
-  .heading { padding: 100px 0; }
+  .heading { padding: 100px 0 25px; }
 
   .logos {
     margin: 0 auto;
@@ -379,6 +379,31 @@ html { font-size: 16px; }
         margin-bottom: 6px;
       }
     }
+  }
+}
+
+.about-section {
+  min-height: 430px;
+  background: image-url('img-hero.png') no-repeat;
+  background-position: 50% 47%;
+  background-size: cover;
+  padding: 100px 0;
+  margin-top: 100px;
+
+  .content { padding-left: 0; }
+
+  .title {
+    color: white;
+    @include font-size(44px);
+    font-weight: 200;
+    margin: 0 0 30px;
+  }
+
+  p {
+    @include font-size(22px);
+    font-weight: 200;
+    line-height: 140%;
+    color: white;
   }
 }
 
