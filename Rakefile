@@ -19,8 +19,10 @@ desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv build/* #{tmp}"
+    system "cp CNAME #{tmp}"
     system "git checkout -B gh-pages"
     system "rm -rf *"
+    system "touch .nojekyll"
     system "mv #{tmp}/* ."
     message = "Site updated at #{Time.now.utc}"
     system "git add ."
